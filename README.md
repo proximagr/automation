@@ -8,3 +8,8 @@ Description: Adds multiple data disks to an Azure VM
  * Checks for empty Luns to add the disks
 
 Blog Post: https://www.cloudcorner.gr/microsoft/azure/azure-vm-add-multiple-data-disks-v2/
+
+
+File: **CheckExtensionAndDeleteAllBlobs.ps1**
+
+Description: This script checks all containers of an Azure storage account. At each conteiner if a blob with a spesific extension is missing then it deletes all bllobs in that container

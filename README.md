@@ -13,3 +13,13 @@ Blog Post: https://www.cloudcorner.gr/microsoft/azure/azure-vm-add-multiple-data
 ## File: **[CheckExtensionAndDeleteAllBlobs.ps1](https://github.com/proximagr/automation/blob/master/CheckExtensionAndDeleteAllBlobs.ps1)** ##
 
 Description: This script checks all containers of an Azure storage account. At each conteiner if a blob with a spesific extension is missing then it deletes all bllobs in that container
+
+## File: **[singleVmCPU.ps1](https://github.com/proximagr/automation/blob/master/singleVmCPU.ps1)** ##
+
+Get the Average CPU percentage above a specific limit that you will specify for an Azure VM.
+
+## File: **[multipleVmsCPU.ps1](https://github.com/proximagr/automation/blob/master/multipleVmsCPU.ps1)** ##
+
+Get the Average CPU percentage above a specific limit that you will specify for a list of Azure VMs.
+The list must be named "vmlist.csv" and must have two columns, one named "vmname" and one "resourcegroupname". 
+You can download a sample vm list from here: **[vmlist.csv](https://github.com/proximagr/automation/blob/master/vmlist.csv)**

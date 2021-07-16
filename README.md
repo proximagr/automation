@@ -23,3 +23,5 @@ Get the Average CPU percentage above a specific limit that you will specify for 
 Get the Average CPU percentage above a specific limit that you will specify for a list of Azure VMs.
 The list must be named "vmlist.csv" and must have two columns, one named "vmname" and one "resourcegroupname". 
 You can download a sample vm list from here: **[vmlist.csv](https://github.com/proximagr/automation/blob/master/vmlist.csv)**
+
+./multipleVmsCPU.ps1 > .\export.txt

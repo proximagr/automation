@@ -7,8 +7,8 @@ foreach ($vm in $vmlist) {
 	$timeGrain = '01:00:00'
 	$metricName = 'Percentage CPU'
 	$metricData = Get-AzMetric -ResourceId $myvm.id -TimeGrain $timeGrain -StartTime $startTime -EndTime $endTime -MetricNames $metricName -warningaction "SilentlyContinue"
-	$cpuabove = "CPU above "
-	$for = "% for "
+	$cpuabove = "CPU "
+	$for = "for "
 	Write-Output "$cpuabove $acpu $for $($vm.vmname)"
 	$metricData.Data.Where({$_.Average -gt $acpu}) | ft TimeStamp,Average
 	}

@@ -1,5 +1,10 @@
-﻿$fp = Get-AzFirewallPolicy -Name azfwpolicy -ResourceGroupName azurehub
-$rcg = Get-AzFirewallPolicyRuleCollectionGroup -Name DefaultNetworkRuleCollectionGroup -AzureFirewallPolicy $fp
+#Provide Input. Firewall Policy Name, Firewall Policy Resource Group & Firewall Policy Rule Collection Group Name
+$fpname = azfwpolicy
+$fprg = azurehub
+$fprcgname = DefaultNetworkRuleCollectionGroup
+
+$fp = Get-AzFirewallPolicy -Name $fpname -ResourceGroupName $fprg
+$rcg = Get-AzFirewallPolicyRuleCollectionGroup -Name $fprcgname -AzureFirewallPolicy $fp
 
 $returnObj = @()
 foreach ($rulecol in $rcg.Properties.RuleCollection) {
@@ -24,6 +29,7 @@ $obj = New-Object psobject -Property $properties
 $returnObj += $obj
 }
 
+#change c:\temp to the path to export the CSV
 $returnObj | Export-Csv c:\temp\rules.csv -NoTypeInformation
 }
 

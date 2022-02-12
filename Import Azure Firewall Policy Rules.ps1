@@ -1,7 +1,13 @@
-﻿$targetfp = Get-AzFirewallPolicy -Name testpolicy -ResourceGroupName azurehub
-$targetrcg = New-AzFirewallPolicyRuleCollectionGroup -Name DefaultNetworkRuleCollectionGroup -Priority 200 -FirewallPolicyObject $targetfp
+#Provide Input. Firewall Policy Name, Firewall Policy Resource Group & Firewall Policy Rule Collection Group Name
+$fpname = azfwpolicy
+$fprg = azurehub
+$fprcgname = DefaultNetworkRuleCollectionGroup
+
+$targetfp = Get-AzFirewallPolicy -Name $fpname -ResourceGroupName $fprg
+$targetrcg = New-AzFirewallPolicyRuleCollectionGroup -Name $fprcgname -Priority 200 -FirewallPolicyObject $targetfp
 
 $RulesfromCSV = @()
+# Change the folder where the CSV is located
 $readObj = import-csv C:\temp\rules.csv
 foreach ($entry in $readObj)
 {

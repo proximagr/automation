@@ -28,8 +28,8 @@ You can download a sample vm list from here: **[vmlist.csv](https://github.com/p
 
 ## File: **[Export Azure Firewall Policy Rules.ps1](https://github.com/proximagr/automation/blob/master/Export%20Azure%20Firewall%20Policy%20Rules.ps1)** ##
 
-Description: Exports all Rule Colections & Rules of an Azure Firewall Rule Collection Group in a CSV file
+Description: Exports all Rule Colections & Rules of an Azure Firewall Rule Collection Group in a CSV file. More info at: https://www.cloudcorner.gr/microsoft/azure/azure-firewall-policy-rules-to-csv/
 
 ## File: **[Import Azure Firewall Policy Rules.ps1](https://github.com/proximagr/automation/blob/master/Import%20Azure%20Firewall%20Policy%20Rules.ps1)** ##
 
-Description: Imports all Rules from a CSV to a Rule Collection of an Azure Firewall Policy
+Description: Imports all Rules from a CSV to a Rule Collection of an Azure Firewall Policy. More info at: https://www.cloudcorner.gr/microsoft/azure/azure-firewall-policy-rules-to-csv/

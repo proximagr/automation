@@ -36,4 +36,7 @@ Description: Imports all Rules from a CSV to a Rule Collection of an Azure Firew
 
 ## File: **[addDatabricksRoutes.ps1](https://github.com/proximagr/automation/blob/master/DatabricksRoutes/addDatabricksRoutes.ps1)** ##
 
-Description: Create all required Routes for Databricks when deployed at your oen network (VNet). The spesific csv has all West & North Europe IPs. More info at: https://docs.microsoft.com/en-us/azure/databricks/administration-guide/cloud-configurations/azure/udr
+Description: Create all required Routes for Databricks when deployed at your oen network (VNet). More info at: https://docs.microsoft.com/en-us/azure/databricks/administration-guide/cloud-configurations/azure/udr
+Template csv with all West & North Europe required IPs: https://github.com/proximagr/automation/blob/master/DatabricksRoutes/routes.csv
+
+Blog Post: 

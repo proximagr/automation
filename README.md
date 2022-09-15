@@ -33,3 +33,7 @@ Description: Exports all Rule Colections & Rules of an Azure Firewall Rule Colle
 ## File: **[Import Azure Firewall Policy Rules.ps1](https://github.com/proximagr/automation/blob/master/Import%20Azure%20Firewall%20Policy%20Rules.ps1)** ##
 
 Description: Imports all Rules from a CSV to a Rule Collection of an Azure Firewall Policy. More info at: https://www.cloudcorner.gr/microsoft/azure/azure-firewall-policy-rules-to-csv/
+
+## File: **[addDatabricksRoutes.ps1](https://github.com/proximagr/automation/blob/master/DatabricksRoutes/addDatabricksRoutes.ps1)** ##
+
+Description: Create all required Routes for Databricks when deployed at your oen network (VNet). The spesific csv has all West & North Europe IPs. More info at: https://docs.microsoft.com/en-us/azure/databricks/administration-guide/cloud-configurations/azure/udr

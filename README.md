@@ -39,4 +39,9 @@ Description: Imports all Rules from a CSV to a Rule Collection of an Azure Firew
 Description: Create all required Routes for Databricks when deployed at your oen network (VNet). More info at: https://docs.microsoft.com/en-us/azure/databricks/administration-guide/cloud-configurations/azure/udr
 Template csv with all West & North Europe required IPs: https://github.com/proximagr/automation/blob/master/DatabricksRoutes/routes.csv
 
-Blog Post: 
+Blog Post: [https://www.cloudcorner.gr/microsoft/azure/azure-databricks-with-existing-dns-azure-networks-on-premises-network/](https://www.cloudcorner.gr/microsoft/azure/azure-databricks-with-existing-dns-azure-networks-on-premises-network/)
+
+## Policy: **[Audit - Enable Network Policy for Private Endpoints Blog Post](https://www.cloudcorner.gr/microsoft/azure/azure-policy-to-enable-network-policies-for-private-endpoints/)** ##
+Get the Policy Json files:
+**[Audit privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/audit%20privateEndpointNetworkPolicies.json)** ##
+**[Enable privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/privateEndpointNetworkPolicies.json)** ##

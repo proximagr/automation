@@ -42,6 +42,6 @@ Template csv with all West & North Europe required IPs: https://github.com/proxi
 Blog Post: [https://www.cloudcorner.gr/microsoft/azure/azure-databricks-with-existing-dns-azure-networks-on-premises-network/](https://www.cloudcorner.gr/microsoft/azure/azure-databricks-with-existing-dns-azure-networks-on-premises-network/)
 
 ## Policy: **[Audit - Enable Network Policy for Private Endpoints Blog Post](https://www.cloudcorner.gr/microsoft/azure/azure-policy-to-enable-network-policies-for-private-endpoints/)** ##
-Get the Policy Json files:
-**[Audit privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/audit%20privateEndpointNetworkPolicies.json)** ##
-**[Enable privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/privateEndpointNetworkPolicies.json)** ##
+
+## Get the Policy Json files: **[Audit privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/audit%20privateEndpointNetworkPolicies.json)**
+**[Enable privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/privateEndpointNetworkPolicies.json)**

@@ -43,5 +43,5 @@ Blog Post: [https://www.cloudcorner.gr/microsoft/azure/azure-databricks-with-exi
 
 ## Policy: **[Audit - Enable Network Policy for Private Endpoints Blog Post](https://www.cloudcorner.gr/microsoft/azure/azure-policy-to-enable-network-policies-for-private-endpoints/)** ##
 
-## Get the Policy Json files: **[Audit privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/audit%20privateEndpointNetworkPolicies.json)**
+Get the Policy Json files: **[Audit privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/audit%20privateEndpointNetworkPolicies.json)**
 **[Enable privateEndpointNetworkPolicies](https://github.com/proximagr/automation/blob/master/Policies/privateEndpointNetworkPolicies.json)**

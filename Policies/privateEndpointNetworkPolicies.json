@@ -1,0 +1,25 @@
+{
+  "mode": "All",
+  "policyRule": {
+    "if": {
+          "field": "Microsoft.Network/virtualNetworks/subnets[*].privateEndpointNetworkPolicies",
+          "notEquals": "Enabled"
+    },
+    "then": {
+      "effect": "modify",
+      "details": {
+        "roleDefinitionIds": [
+          "/providers/Microsoft.Authorization/roleDefinitions/4d97b98b-1d4f-4787-a291-c67834d212e7"
+        ],
+        "operations": [
+          {
+            "operation": "addOrReplace",
+            "field": "Microsoft.Network/virtualNetworks/subnets[*].privateEndpointNetworkPolicies",
+            "value": "Enabled"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {}
+}

@@ -50,4 +50,12 @@ Get the Policy Json files: **[Audit privateEndpointNetworkPolicies](https://gith
 
 Description: Create multiple VNETs
 
+## File: **[AzBackupVMsAutomation.ps1](https://github.com/proximagr/automation/blob/master/AzBackupVMsAutomation.ps1)** ##
+
+Description: Azure Backup for VMs Automation
+ * Change policy for backup items
+ * Stop protection for multiple vms
+ * Resume protection for multiple vms
+
+
 ## File: **[CreateMultipleVNETsAndSubnets.ps1](

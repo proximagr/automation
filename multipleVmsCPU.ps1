@@ -10,5 +10,5 @@ foreach ($vm in $vmlist) {
 	$cpuabove = "CPU "
 	$for = "for "
 	Write-Output "$cpuabove $acpu $for $($vm.vmname)"
-	$metricData.Data.Where({$_.Average -gt $acpu}) | ft TimeStamp,Average
+	$metricData.Data.Where({$_.Average -gt $acpu}) | Format-Table TimeStamp,Average
 	}

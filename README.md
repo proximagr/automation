@@ -58,4 +58,6 @@ Description: Azure Backup for VMs Automation
  * Resume protection for multiple vms
 
 
-## File: **[CreateMultipleVNETsAndSubnets.ps1](
+## File: **[Create VMs.sh](https://vscode.dev/github/proximagr/automation/blob/master/AzCli/create%20VMs.sh)** ##
+
+Description: Create multiple VMs with AzCli

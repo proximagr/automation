@@ -1,7 +1,7 @@
 #Provide Input. Firewall Policy Name, Firewall Policy Resource Group & Firewall Policy Rule Collection Group Name
-$fpname = azfwpolicy
-$fprg = azurehub
-$fprcgname = DefaultNetworkRuleCollectionGroup
+$fpname = "azfwpolicy"
+$fprg = "azurehub"
+$fprcgname = "DefaultNetworkRuleCollectionGroup"
 
 $fp = Get-AzFirewallPolicy -Name $fpname -ResourceGroupName $fprg
 $rcg = Get-AzFirewallPolicyRuleCollectionGroup -Name $fprcgname -AzureFirewallPolicy $fp

@@ -50,6 +50,10 @@ Get the Policy Json files: **[Audit privateEndpointNetworkPolicies](https://gith
 
 Description: Create multiple VNETs
 
+## File: **[create-VNETS-w-Peerings.sh](https://github.com/proximagr/automation/blob/master/AzCli/create-VNETS-w-Peerings.sh)** ##
+
+Description: Create multiple VNETs connected with VNET Peerings in full mesh
+
 ## File: **[AzBackupVMsAutomation.ps1](https://github.com/proximagr/automation/blob/master/AzBackupVMsAutomation.ps1)** ##
 
 Description: Azure Backup for VMs Automation
